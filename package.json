@@ -1,5 +1,5 @@
 {
-  "name": "hello-sanity-nextjs-starter",
+  "name": "Glitch Haven",
   "version": "1.0.0",
   "scripts": {
     "dev": "next",
@@ -9,10 +9,17 @@
   },
   "dependencies": {
     "next": "^13",
+    "next-auth": "^4.19.2",
+    "next-sanity": "^4.1.2",
     "react": "^18",
     "react-dom": "^18"
   },
   "license": "MIT",
   "keywords": [],
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.2.4"
+  }
 }
