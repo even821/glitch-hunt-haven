@@ -1,4 +1,4 @@
-import client from "../client";
+import {client} from "../client";
 import Menu from "../../components/Menu";
 import Pill from "../../components/Pill";
 import FooterBar from "../../components/FooterBar";

@@ -1,122 +1,224 @@
 "use strict";
-/*
- * ATTENTION: An "eval-source-map" devtool has been used.
- * This devtool is neither made for production nor for readable output files.
- * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
- * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
- * or disable the default devtool with "devtool: false".
- * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
- */
 (() => {
 var exports = {};
-exports.id = "pages/tech/[slug]";
-exports.ids = ["pages/tech/[slug]"];
+exports.id = 99;
+exports.ids = [99,610];
 exports.modules = {
 
-/***/ "./components/FooterBar.jsx":
-/*!**********************************!*\
-  !*** ./components/FooterBar.jsx ***!
-  \**********************************/
+/***/ 525:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);\n\n\nconst FooterBar = ()=>{\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n        className: \" text-slate-300 text-center mt-4\",\n        children: \"\\xa9 2023 Glitch Hunting Haven. All rights reserved.\"\n    }, void 0, false, {\n        fileName: \"D:\\\\sanity\\\\glitchhaven\\\\app\\\\components\\\\FooterBar.jsx\",\n        lineNumber: 5,\n        columnNumber: 5\n    }, undefined);\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (FooterBar);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9jb21wb25lbnRzL0Zvb3RlckJhci5qc3guanMiLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7O0FBQXlCO0FBRXpCLE1BQU1DLFlBQVksSUFBTTtJQUN0QixxQkFDRSw4REFBQ0M7UUFBSUMsV0FBVTtrQkFBbUM7Ozs7OztBQUV0RDtBQUVBLGlFQUFlRixTQUFTQSxFQUFBIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vR2xpdGNoIEhhdmVuLy4vY29tcG9uZW50cy9Gb290ZXJCYXIuanN4PzJhMGUiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0IGZyb20gJ3JlYWN0J1xyXG5cclxuY29uc3QgRm9vdGVyQmFyID0gKCkgPT4ge1xyXG4gIHJldHVybiAoXHJcbiAgICA8ZGl2IGNsYXNzTmFtZT1cIiB0ZXh0LXNsYXRlLTMwMCB0ZXh0LWNlbnRlciBtdC00XCI+JiMxNjk7IDIwMjMgR2xpdGNoIEh1bnRpbmcgSGF2ZW4uIEFsbCByaWdodHMgcmVzZXJ2ZWQuPC9kaXY+XHJcbiAgKVxyXG59XHJcblxyXG5leHBvcnQgZGVmYXVsdCBGb290ZXJCYXIiXSwibmFtZXMiOlsiUmVhY3QiLCJGb290ZXJCYXIiLCJkaXYiLCJjbGFzc05hbWUiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./components/FooterBar.jsx\n");
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "Z": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(997);
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(689);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+
+
+const FooterBar = ()=>{
+    return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+        className: " text-slate-300 text-center mt-4",
+        children: "\xa9 2023 Glitch Hunting Haven. All rights reserved."
+    });
+};
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (FooterBar);
+
 
 /***/ }),
 
-/***/ "./components/Menu.jsx":
-/*!*****************************!*\
-  !*** ./components/Menu.jsx ***!
-  \*****************************/
+/***/ 940:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _MenuItem__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./MenuItem */ \"./components/MenuItem.jsx\");\n/* harmony import */ var _Profilepic__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Profilepic */ \"./components/Profilepic.jsx\");\n\n\n\n\nconst Menu = ()=>{\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n        className: \" bg-slate-900 text-white grid grid-cols-2 shadow-lg shadow-black\",\n        children: [\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"ul\", {\n                className: \"flex py-4\",\n                children: [\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_MenuItem__WEBPACK_IMPORTED_MODULE_2__[\"default\"], {\n                        item: \"Hunters\",\n                        slug: \"hunter\"\n                    }, void 0, false, {\n                        fileName: \"D:\\\\sanity\\\\glitchhaven\\\\app\\\\components\\\\Menu.jsx\",\n                        lineNumber: 10,\n                        columnNumber: 9\n                    }, undefined),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_MenuItem__WEBPACK_IMPORTED_MODULE_2__[\"default\"], {\n                        item: \"Games\",\n                        slug: \"game\"\n                    }, void 0, false, {\n                        fileName: \"D:\\\\sanity\\\\glitchhaven\\\\app\\\\components\\\\Menu.jsx\",\n                        lineNumber: 11,\n                        columnNumber: 9\n                    }, undefined),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_MenuItem__WEBPACK_IMPORTED_MODULE_2__[\"default\"], {\n                        item: \"Techs\",\n                        slug: \"tech\"\n                    }, void 0, false, {\n                        fileName: \"D:\\\\sanity\\\\glitchhaven\\\\app\\\\components\\\\Menu.jsx\",\n                        lineNumber: 12,\n                        columnNumber: 9\n                    }, undefined),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_MenuItem__WEBPACK_IMPORTED_MODULE_2__[\"default\"], {\n                        item: \"Strats\",\n                        slug: \"strat\"\n                    }, void 0, false, {\n                        fileName: \"D:\\\\sanity\\\\glitchhaven\\\\app\\\\components\\\\Menu.jsx\",\n                        lineNumber: 13,\n                        columnNumber: 9\n                    }, undefined)\n                ]\n            }, void 0, true, {\n                fileName: \"D:\\\\sanity\\\\glitchhaven\\\\app\\\\components\\\\Menu.jsx\",\n                lineNumber: 9,\n                columnNumber: 7\n            }, undefined),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                className: \" grid justify-items-end pr-10\"\n            }, void 0, false, {\n                fileName: \"D:\\\\sanity\\\\glitchhaven\\\\app\\\\components\\\\Menu.jsx\",\n                lineNumber: 15,\n                columnNumber: 7\n            }, undefined)\n        ]\n    }, void 0, true, {\n        fileName: \"D:\\\\sanity\\\\glitchhaven\\\\app\\\\components\\\\Menu.jsx\",\n        lineNumber: 8,\n        columnNumber: 5\n    }, undefined);\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Menu);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9jb21wb25lbnRzL01lbnUuanN4LmpzIiwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7O0FBQXlCO0FBQ1E7QUFDSztBQUV0QyxNQUFNRyxPQUFPLElBQU07SUFFakIscUJBQ0UsOERBQUNDO1FBQUlDLFdBQVU7OzBCQUNiLDhEQUFDQztnQkFBR0QsV0FBVTs7a0NBQ1osOERBQUNKLGlEQUFRQTt3QkFBQ00sTUFBSzt3QkFBVUMsTUFBSzs7Ozs7O2tDQUM5Qiw4REFBQ1AsaURBQVFBO3dCQUFDTSxNQUFLO3dCQUFRQyxNQUFLOzs7Ozs7a0NBQzVCLDhEQUFDUCxpREFBUUE7d0JBQUNNLE1BQUs7d0JBQVFDLE1BQUs7Ozs7OztrQ0FDNUIsOERBQUNQLGlEQUFRQTt3QkFBQ00sTUFBSzt3QkFBU0MsTUFBSzs7Ozs7Ozs7Ozs7OzBCQUUvQiw4REFBQ0o7Z0JBQUlDLFdBQVU7Ozs7Ozs7Ozs7OztBQUtyQjtBQUVBLGlFQUFlRixJQUFJQSxFQUFBIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vR2xpdGNoIEhhdmVuLy4vY29tcG9uZW50cy9NZW51LmpzeD9iODY5Il0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBSZWFjdCBmcm9tICdyZWFjdCdcclxuaW1wb3J0IE1lbnVJdGVtIGZyb20gJy4vTWVudUl0ZW0nXHJcbmltcG9ydCBQcm9maWxlcGljIGZyb20gJy4vUHJvZmlsZXBpYyc7XHJcblxyXG5jb25zdCBNZW51ID0gKCkgPT4ge1xyXG5cclxuICByZXR1cm4gKFxyXG4gICAgPGRpdiBjbGFzc05hbWU9XCIgYmctc2xhdGUtOTAwIHRleHQtd2hpdGUgZ3JpZCBncmlkLWNvbHMtMiBzaGFkb3ctbGcgc2hhZG93LWJsYWNrXCI+XHJcbiAgICAgIDx1bCBjbGFzc05hbWU9XCJmbGV4IHB5LTRcIj5cclxuICAgICAgICA8TWVudUl0ZW0gaXRlbT1cIkh1bnRlcnNcIiBzbHVnPVwiaHVudGVyXCI+PC9NZW51SXRlbT5cclxuICAgICAgICA8TWVudUl0ZW0gaXRlbT1cIkdhbWVzXCIgc2x1Zz1cImdhbWVcIj48L01lbnVJdGVtPlxyXG4gICAgICAgIDxNZW51SXRlbSBpdGVtPVwiVGVjaHNcIiBzbHVnPVwidGVjaFwiPjwvTWVudUl0ZW0+XHJcbiAgICAgICAgPE1lbnVJdGVtIGl0ZW09XCJTdHJhdHNcIiBzbHVnPVwic3RyYXRcIj48L01lbnVJdGVtPlxyXG4gICAgICA8L3VsPlxyXG4gICAgICA8ZGl2IGNsYXNzTmFtZT0nIGdyaWQganVzdGlmeS1pdGVtcy1lbmQgcHItMTAnPlxyXG4gICAgICAgICAgXHJcbiAgICAgIDwvZGl2PlxyXG4gICAgPC9kaXY+XHJcbiAgKVxyXG59XHJcblxyXG5leHBvcnQgZGVmYXVsdCBNZW51Il0sIm5hbWVzIjpbIlJlYWN0IiwiTWVudUl0ZW0iLCJQcm9maWxlcGljIiwiTWVudSIsImRpdiIsImNsYXNzTmFtZSIsInVsIiwiaXRlbSIsInNsdWciXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./components/Menu.jsx\n");
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "Z": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(997);
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(689);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+
+
+const pill = ({ link , text , color  })=>{
+    return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+        className: ` inline ${color} text-white p-[6px] rounded-lg font-semibold mr-2 shadow-black shadow-inner`,
+        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
+            href: link,
+            children: text
+        })
+    });
+};
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (pill);
+
 
 /***/ }),
 
-/***/ "./components/MenuItem.jsx":
-/*!*********************************!*\
-  !*** ./components/MenuItem.jsx ***!
-  \*********************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);\n\n\nconst MenuItem = ({ item , slug  })=>{\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"li\", {\n        className: \"my-3 mx-5 hover:cursor-pointer\",\n        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"a\", {\n            href: \"/router/\" + slug,\n            children: item\n        }, void 0, false, {\n            fileName: \"D:\\\\sanity\\\\glitchhaven\\\\app\\\\components\\\\MenuItem.jsx\",\n            lineNumber: 5,\n            columnNumber: 52\n        }, undefined)\n    }, void 0, false, {\n        fileName: \"D:\\\\sanity\\\\glitchhaven\\\\app\\\\components\\\\MenuItem.jsx\",\n        lineNumber: 5,\n        columnNumber: 5\n    }, undefined);\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (MenuItem);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9jb21wb25lbnRzL01lbnVJdGVtLmpzeC5qcyIsIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7QUFBeUI7QUFFekIsTUFBTUMsV0FBVyxDQUFDLEVBQUVDLEtBQUksRUFBRUMsS0FBSSxFQUFFLEdBQUs7SUFDbkMscUJBQ0UsOERBQUNDO1FBQUdDLFdBQVU7a0JBQWlDLDRFQUFDQztZQUFFQyxNQUFNLGFBQWFKO3NCQUFPRDs7Ozs7Ozs7Ozs7QUFFaEY7QUFFQSxpRUFBZUQsUUFBUUEsRUFBQSIsInNvdXJjZXMiOlsid2VicGFjazovL0dsaXRjaCBIYXZlbi8uL2NvbXBvbmVudHMvTWVudUl0ZW0uanN4PzdiZWMiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0IGZyb20gJ3JlYWN0J1xyXG5cclxuY29uc3QgTWVudUl0ZW0gPSAoeyBpdGVtLCBzbHVnIH0pID0+IHtcclxuICByZXR1cm4gKFxyXG4gICAgPGxpIGNsYXNzTmFtZT1cIm15LTMgbXgtNSBob3ZlcjpjdXJzb3ItcG9pbnRlclwiPjxhIGhyZWY9e1wiL3JvdXRlci9cIiArIHNsdWd9PntpdGVtfTwvYT48L2xpPlxyXG4gIClcclxufVxyXG5cclxuZXhwb3J0IGRlZmF1bHQgTWVudUl0ZW0iXSwibmFtZXMiOlsiUmVhY3QiLCJNZW51SXRlbSIsIml0ZW0iLCJzbHVnIiwibGkiLCJjbGFzc05hbWUiLCJhIiwiaHJlZiJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./components/MenuItem.jsx\n");
-
-/***/ }),
-
-/***/ "./components/Pill.jsx":
-/*!*****************************!*\
-  !*** ./components/Pill.jsx ***!
-  \*****************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);\n\n\nconst pill = ({ link , text , color  })=>{\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n        className: ` inline ${color} text-white p-[6px] rounded-lg font-semibold mr-2 shadow-black shadow-inner`,\n        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"a\", {\n            href: link,\n            children: text\n        }, void 0, false, {\n            fileName: \"D:\\\\sanity\\\\glitchhaven\\\\app\\\\components\\\\Pill.jsx\",\n            lineNumber: 6,\n            columnNumber: 9\n        }, undefined)\n    }, void 0, false, {\n        fileName: \"D:\\\\sanity\\\\glitchhaven\\\\app\\\\components\\\\Pill.jsx\",\n        lineNumber: 5,\n        columnNumber: 5\n    }, undefined);\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (pill);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9jb21wb25lbnRzL1BpbGwuanN4LmpzIiwibWFwcGluZ3MiOiI7Ozs7Ozs7OztBQUF5QjtBQUV6QixNQUFNQyxPQUFPLENBQUMsRUFBQ0MsS0FBSSxFQUFFQyxLQUFJLEVBQUVDLE1BQUssRUFBQyxHQUFLO0lBQ3BDLHFCQUNFLDhEQUFDQztRQUFJQyxXQUFXLENBQUMsUUFBUSxFQUFFRixNQUFNLDJFQUEyRSxDQUFDO2tCQUN6Ryw0RUFBQ0c7WUFBRUMsTUFBTU47c0JBQ0pDOzs7Ozs7Ozs7OztBQUliO0FBRUEsaUVBQWVGLElBQUlBLEVBQUEiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9HbGl0Y2ggSGF2ZW4vLi9jb21wb25lbnRzL1BpbGwuanN4PzRkNmUiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0IGZyb20gJ3JlYWN0J1xyXG5cclxuY29uc3QgcGlsbCA9ICh7bGluaywgdGV4dCwgY29sb3J9KSA9PiB7XHJcbiAgcmV0dXJuIChcclxuICAgIDxkaXYgY2xhc3NOYW1lPXtgIGlubGluZSAke2NvbG9yfSB0ZXh0LXdoaXRlIHAtWzZweF0gcm91bmRlZC1sZyBmb250LXNlbWlib2xkIG1yLTIgc2hhZG93LWJsYWNrIHNoYWRvdy1pbm5lcmB9PlxyXG4gICAgICAgIDxhIGhyZWY9e2xpbmt9PlxyXG4gICAgICAgICAgICB7dGV4dH1cclxuICAgICAgICA8L2E+XHJcbiAgICA8L2Rpdj5cclxuICApXHJcbn1cclxuXHJcbmV4cG9ydCBkZWZhdWx0IHBpbGwiXSwibmFtZXMiOlsiUmVhY3QiLCJwaWxsIiwibGluayIsInRleHQiLCJjb2xvciIsImRpdiIsImNsYXNzTmFtZSIsImEiLCJocmVmIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./components/Pill.jsx\n");
-
-/***/ }),
-
-/***/ "./components/Profilepic.jsx":
-/*!***********************************!*\
-  !*** ./components/Profilepic.jsx ***!
-  \***********************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var next_auth_react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next-auth/react */ \"next-auth/react\");\n/* harmony import */ var next_auth_react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_auth_react__WEBPACK_IMPORTED_MODULE_1__);\n\n\nconst saveTitle = async (title)=>{\n    const mutation = [\n        {\n            create: {\n                _type: \"hunter\",\n                title: title,\n                name: title\n            }\n        }\n    ];\n    const url = `http://1q0xyy8m.api.sanity.io/v2023-02-05/data/mutate/production`;\n    const response = await fetch(url, {\n        method: \"post\",\n        headers: {\n            \"content-type\": \"application/json\",\n            authorization: `Bearer ${process.env.SANITY_WRITE_TOKEN}`\n        },\n        body: JSON.stringify({\n            mutation\n        })\n    });\n    const result = await response.json();\n};\nconst Profilepic = ()=>{\n    const { data: session  } = (0,next_auth_react__WEBPACK_IMPORTED_MODULE_1__.useSession)();\n    if (!session) return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"button\", {\n        onClick: ()=>(0,next_auth_react__WEBPACK_IMPORTED_MODULE_1__.signIn)(),\n        className: \" border-2 h-10 mt-4 px-4 rounded-lg border-red-700 text-red-700 hover:text-black hover:bg-red-700 transition-all font-bold\",\n        children: \"Log in\"\n    }, void 0, false, {\n        fileName: \"D:\\\\sanity\\\\glitchhaven\\\\app\\\\components\\\\Profilepic.jsx\",\n        lineNumber: 33,\n        columnNumber: 9\n    }, undefined);\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n        className: \" bg-red-700 rounded-full my-4 p-[2px]\",\n        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"img\", {\n            onClick: ()=>saveTitle(\"test\"),\n            src: session?.user?.image,\n            alt: \"\",\n            className: \" w-12 rounded-full\"\n        }, void 0, false, {\n            fileName: \"D:\\\\sanity\\\\glitchhaven\\\\app\\\\components\\\\Profilepic.jsx\",\n            lineNumber: 38,\n            columnNumber: 13\n        }, undefined)\n    }, void 0, false, {\n        fileName: \"D:\\\\sanity\\\\glitchhaven\\\\app\\\\components\\\\Profilepic.jsx\",\n        lineNumber: 37,\n        columnNumber: 9\n    }, undefined);\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Profilepic);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9jb21wb25lbnRzL1Byb2ZpbGVwaWMuanN4LmpzIiwibWFwcGluZ3MiOiI7Ozs7Ozs7OztBQUM4RDtBQUU5RCxNQUFNRyxZQUFZLE9BQU9DLFFBQVU7SUFDL0IsTUFBTUMsV0FBVztRQUNiO1lBQ0lDLFFBQVE7Z0JBQ0pDLE9BQU87Z0JBQ1BILE9BQU9BO2dCQUNQSSxNQUFNSjtZQUNWO1FBQ0o7S0FDSDtJQUVELE1BQU1LLE1BQU0sQ0FBQyxnRUFBZ0UsQ0FBQztJQUU5RSxNQUFNQyxXQUFXLE1BQU1DLE1BQU1GLEtBQUs7UUFDOUJHLFFBQVE7UUFDUkMsU0FBUztZQUNMLGdCQUFnQjtZQUNoQkMsZUFBZSxDQUFDLE9BQU8sRUFBRUMsUUFBUUMsR0FBRyxDQUFDQyxrQkFBa0IsQ0FBQyxDQUFDO1FBQzdEO1FBQ0FDLE1BQU1DLEtBQUtDLFNBQVMsQ0FBQztZQUFDZjtRQUFRO0lBQ2xDO0lBRUEsTUFBTWdCLFNBQVMsTUFBTVgsU0FBU1ksSUFBSTtBQUN0QztBQUVBLE1BQU1DLGFBQWEsSUFBTTtJQUNyQixNQUFNLEVBQUNDLE1BQUtDLFFBQU8sRUFBQyxHQUFHekIsMkRBQVVBO0lBRWpDLElBQUcsQ0FBQ3lCLFNBQVMscUJBQ1QsOERBQUNDO1FBQU9DLFNBQVMsSUFBTXpCLHVEQUFNQTtRQUFJMEIsV0FBVTtrQkFBNkg7Ozs7OztJQUc1SyxxQkFDSSw4REFBQ0M7UUFBSUQsV0FBVTtrQkFDWCw0RUFBQ0U7WUFBSUgsU0FBUyxJQUFNeEIsVUFBVTtZQUFTNEIsS0FBS04sU0FBU08sTUFBTUM7WUFBT0MsS0FBSTtZQUFHTixXQUFVOzs7Ozs7Ozs7OztBQUcvRjtBQUVBLGlFQUFlTCxVQUFVQSxFQUFBIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vR2xpdGNoIEhhdmVuLy4vY29tcG9uZW50cy9Qcm9maWxlcGljLmpzeD80MTA5Il0sInNvdXJjZXNDb250ZW50IjpbIlxyXG5pbXBvcnQgeyB1c2VTZXNzaW9uLCBzaWduT3V0LCBzaWduSW4gfSBmcm9tICduZXh0LWF1dGgvcmVhY3QnO1xyXG5cclxuY29uc3Qgc2F2ZVRpdGxlID0gYXN5bmMgKHRpdGxlKSA9PiB7XHJcbiAgICBjb25zdCBtdXRhdGlvbiA9IFtcclxuICAgICAgICB7XHJcbiAgICAgICAgICAgIGNyZWF0ZToge1xyXG4gICAgICAgICAgICAgICAgX3R5cGU6ICdodW50ZXInLFxyXG4gICAgICAgICAgICAgICAgdGl0bGU6IHRpdGxlLFxyXG4gICAgICAgICAgICAgICAgbmFtZTogdGl0bGVcclxuICAgICAgICAgICAgfVxyXG4gICAgICAgIH1cclxuICAgIF1cclxuXHJcbiAgICBjb25zdCB1cmwgPSBgaHR0cDovLzFxMHh5eThtLmFwaS5zYW5pdHkuaW8vdjIwMjMtMDItMDUvZGF0YS9tdXRhdGUvcHJvZHVjdGlvbmA7XHJcblxyXG4gICAgY29uc3QgcmVzcG9uc2UgPSBhd2FpdCBmZXRjaCh1cmwsIHtcclxuICAgICAgICBtZXRob2Q6ICdwb3N0JyxcclxuICAgICAgICBoZWFkZXJzOiB7XHJcbiAgICAgICAgICAgICdjb250ZW50LXR5cGUnOiAnYXBwbGljYXRpb24vanNvbicsXHJcbiAgICAgICAgICAgIGF1dGhvcml6YXRpb246IGBCZWFyZXIgJHtwcm9jZXNzLmVudi5TQU5JVFlfV1JJVEVfVE9LRU59YCxcclxuICAgICAgICB9LFxyXG4gICAgICAgIGJvZHk6IEpTT04uc3RyaW5naWZ5KHttdXRhdGlvbn0pLFxyXG4gICAgfSk7XHJcblxyXG4gICAgY29uc3QgcmVzdWx0ID0gYXdhaXQgcmVzcG9uc2UuanNvbigpO1xyXG59XHJcblxyXG5jb25zdCBQcm9maWxlcGljID0gKCkgPT4ge1xyXG4gICAgY29uc3Qge2RhdGE6c2Vzc2lvbn0gPSB1c2VTZXNzaW9uKCk7XHJcblxyXG4gICAgaWYoIXNlc3Npb24pIHJldHVybiAoXHJcbiAgICAgICAgPGJ1dHRvbiBvbkNsaWNrPXsoKSA9PiBzaWduSW4oKX0gY2xhc3NOYW1lPVwiIGJvcmRlci0yIGgtMTAgbXQtNCBweC00IHJvdW5kZWQtbGcgYm9yZGVyLXJlZC03MDAgdGV4dC1yZWQtNzAwIGhvdmVyOnRleHQtYmxhY2sgaG92ZXI6YmctcmVkLTcwMCB0cmFuc2l0aW9uLWFsbCBmb250LWJvbGRcIj5Mb2cgaW48L2J1dHRvbj5cclxuICAgICk7XHJcblxyXG4gICAgcmV0dXJuIChcclxuICAgICAgICA8ZGl2IGNsYXNzTmFtZT0nIGJnLXJlZC03MDAgcm91bmRlZC1mdWxsIG15LTQgcC1bMnB4XSc+XHJcbiAgICAgICAgICAgIDxpbWcgb25DbGljaz17KCkgPT4gc2F2ZVRpdGxlKCd0ZXN0Jyl9IHNyYz17c2Vzc2lvbj8udXNlcj8uaW1hZ2V9IGFsdD1cIlwiIGNsYXNzTmFtZT0nIHctMTIgcm91bmRlZC1mdWxsJy8+XHJcbiAgICAgICAgPC9kaXY+XHJcbiAgICApXHJcbn1cclxuXHJcbmV4cG9ydCBkZWZhdWx0IFByb2ZpbGVwaWMiXSwibmFtZXMiOlsidXNlU2Vzc2lvbiIsInNpZ25PdXQiLCJzaWduSW4iLCJzYXZlVGl0bGUiLCJ0aXRsZSIsIm11dGF0aW9uIiwiY3JlYXRlIiwiX3R5cGUiLCJuYW1lIiwidXJsIiwicmVzcG9uc2UiLCJmZXRjaCIsIm1ldGhvZCIsImhlYWRlcnMiLCJhdXRob3JpemF0aW9uIiwicHJvY2VzcyIsImVudiIsIlNBTklUWV9XUklURV9UT0tFTiIsImJvZHkiLCJKU09OIiwic3RyaW5naWZ5IiwicmVzdWx0IiwianNvbiIsIlByb2ZpbGVwaWMiLCJkYXRhIiwic2Vzc2lvbiIsImJ1dHRvbiIsIm9uQ2xpY2siLCJjbGFzc05hbWUiLCJkaXYiLCJpbWciLCJzcmMiLCJ1c2VyIiwiaW1hZ2UiLCJhbHQiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./components/Profilepic.jsx\n");
-
-/***/ }),
-
-/***/ "./pages/client.jsx":
-/*!**************************!*\
-  !*** ./pages/client.jsx ***!
-  \**************************/
+/***/ 891:
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {\n__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var next_sanity__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! next-sanity */ \"next-sanity\");\nvar __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([next_sanity__WEBPACK_IMPORTED_MODULE_0__]);\nnext_sanity__WEBPACK_IMPORTED_MODULE_0__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ((0,next_sanity__WEBPACK_IMPORTED_MODULE_0__.createClient)({\n    projectId: \"1q0xyy8m\",\n    dataset: \"production\",\n    apiVersion: \"2023-02-03\",\n    useCdn: false,\n    token: process.env.SANITY_WRITE_TOKEN\n}));\n\n__webpack_async_result__();\n} catch(e) { __webpack_async_result__(e); } });//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9wYWdlcy9jbGllbnQuanN4LmpzIiwibWFwcGluZ3MiOiI7Ozs7Ozs7O0FBQTJDO0FBRTNDLGlFQUFlQSx5REFBWUEsQ0FBQztJQUN4QkMsV0FBVztJQUNYQyxTQUFTO0lBQ1RDLFlBQVk7SUFDWkMsUUFBUSxLQUFLO0lBQ2JDLE9BQU9DLFFBQVFDLEdBQUcsQ0FBQ0Msa0JBQWtCO0FBQ3ZDLEVBQUUsRUFBQyIsInNvdXJjZXMiOlsid2VicGFjazovL0dsaXRjaCBIYXZlbi8uL3BhZ2VzL2NsaWVudC5qc3g/NWQyYSJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBjcmVhdGVDbGllbnQgfSBmcm9tIFwibmV4dC1zYW5pdHlcIjtcclxuXHJcbmV4cG9ydCBkZWZhdWx0IGNyZWF0ZUNsaWVudCh7XHJcbiAgICBwcm9qZWN0SWQ6ICcxcTB4eXk4bScsXHJcbiAgICBkYXRhc2V0OiAncHJvZHVjdGlvbicsXHJcbiAgICBhcGlWZXJzaW9uOiAnMjAyMy0wMi0wMycsXHJcbiAgICB1c2VDZG46IGZhbHNlLFxyXG4gICAgdG9rZW46IHByb2Nlc3MuZW52LlNBTklUWV9XUklURV9UT0tFTlxyXG4gIH0pOyJdLCJuYW1lcyI6WyJjcmVhdGVDbGllbnQiLCJwcm9qZWN0SWQiLCJkYXRhc2V0IiwiYXBpVmVyc2lvbiIsInVzZUNkbiIsInRva2VuIiwicHJvY2VzcyIsImVudiIsIlNBTklUWV9XUklURV9UT0tFTiJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./pages/client.jsx\n");
+__webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "client": () => (/* binding */ client),
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(997);
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var next_sanity__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(91);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(689);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
+var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([next_sanity__WEBPACK_IMPORTED_MODULE_1__]);
+next_sanity__WEBPACK_IMPORTED_MODULE_1__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];
+
+
+
+const pill = ({ link , text , color  })=>{
+    return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+        className: ` inline ${color} text-white p-[6px] rounded-lg font-semibold mr-2 shadow-black shadow-inner`,
+        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
+            href: link,
+            children: text
+        })
+    });
+};
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (pill);
+let client = (0,next_sanity__WEBPACK_IMPORTED_MODULE_1__.createClient)({
+    projectId: "1q0xyy8m",
+    dataset: "production",
+    apiVersion: "2023-02-03",
+    useCdn: false,
+    token: process.env.SANITY_WRITE_TOKEN
+});
+
+__webpack_async_result__();
+} catch(e) { __webpack_async_result__(e); } });
 
 /***/ }),
 
-/***/ "./pages/tech/[slug].jsx":
-/*!*******************************!*\
-  !*** ./pages/tech/[slug].jsx ***!
-  \*******************************/
+/***/ 354:
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {\n__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ IndexPage),\n/* harmony export */   \"getStaticPaths\": () => (/* binding */ getStaticPaths),\n/* harmony export */   \"getStaticProps\": () => (/* binding */ getStaticProps)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _client__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../client */ \"./pages/client.jsx\");\n/* harmony import */ var _components_Menu__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../components/Menu */ \"./components/Menu.jsx\");\n/* harmony import */ var _components_Pill__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../components/Pill */ \"./components/Pill.jsx\");\n/* harmony import */ var _components_FooterBar__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../components/FooterBar */ \"./components/FooterBar.jsx\");\nvar __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([_client__WEBPACK_IMPORTED_MODULE_1__]);\n_client__WEBPACK_IMPORTED_MODULE_1__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];\n\n\n\n\n\nfunction IndexPage({ tech  }) {\n    return tech?.name && /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n        children: [\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_components_Menu__WEBPACK_IMPORTED_MODULE_2__[\"default\"], {}, void 0, false, {\n                fileName: \"D:\\\\sanity\\\\glitchhaven\\\\app\\\\pages\\\\tech\\\\[slug].jsx\",\n                lineNumber: 11,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                className: \" text-white p-10 grid grid-cols-1 lg:grid-cols-2 shadow-black shadow-md justify-items-start lg:justify-items-center bg-gradient-to-t from-transparent via-slate-700 to-transparent\",\n                children: [\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                        className: \"mr-5 pr-5\",\n                        children: [\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"h1\", {\n                                className: \"text-3xl font-semibold\",\n                                children: [\n                                    tech.name,\n                                    \" \",\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"span\", {\n                                        className: \" text-base font-normal border-l-[1px] py-1 px-2\",\n                                        children: [\n                                            \" Tech for \",\n                                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"i\", {\n                                                className: \" bg-red-700 font-semibold px-2 py-[2px] rounded-lg cursor-pointer shadow-md shadow-black\",\n                                                children: tech.game.name\n                                            }, void 0, false, {\n                                                fileName: \"D:\\\\sanity\\\\glitchhaven\\\\app\\\\pages\\\\tech\\\\[slug].jsx\",\n                                                lineNumber: 16,\n                                                columnNumber: 138\n                                            }, this)\n                                        ]\n                                    }, void 0, true, {\n                                        fileName: \"D:\\\\sanity\\\\glitchhaven\\\\app\\\\pages\\\\tech\\\\[slug].jsx\",\n                                        lineNumber: 16,\n                                        columnNumber: 62\n                                    }, this)\n                                ]\n                            }, void 0, true, {\n                                fileName: \"D:\\\\sanity\\\\glitchhaven\\\\app\\\\pages\\\\tech\\\\[slug].jsx\",\n                                lineNumber: 16,\n                                columnNumber: 11\n                            }, this),\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"span\", {\n                                className: \"p-2 block\"\n                            }, void 0, false, {\n                                fileName: \"D:\\\\sanity\\\\glitchhaven\\\\app\\\\pages\\\\tech\\\\[slug].jsx\",\n                                lineNumber: 17,\n                                columnNumber: 11\n                            }, this),\n                            \"Discovered by \",\n                            tech.hunters.map((hunter)=>/*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_components_Pill__WEBPACK_IMPORTED_MODULE_3__[\"default\"], {\n                                    text: hunter.name,\n                                    color: \"bg-blue-600\",\n                                    link: \"/hunter/\" + hunter.slug.current\n                                }, hunter._id, false, {\n                                    fileName: \"D:\\\\sanity\\\\glitchhaven\\\\app\\\\pages\\\\tech\\\\[slug].jsx\",\n                                    lineNumber: 20,\n                                    columnNumber: 15\n                                }, this)),\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"p\", {\n                                className: \"mt-10 whiteSpace\",\n                                children: tech.description\n                            }, void 0, false, {\n                                fileName: \"D:\\\\sanity\\\\glitchhaven\\\\app\\\\pages\\\\tech\\\\[slug].jsx\",\n                                lineNumber: 22,\n                                columnNumber: 11\n                            }, this)\n                        ]\n                    }, void 0, true, {\n                        fileName: \"D:\\\\sanity\\\\glitchhaven\\\\app\\\\pages\\\\tech\\\\[slug].jsx\",\n                        lineNumber: 13,\n                        columnNumber: 9\n                    }, this),\n                    tech.video ? /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"iframe\", {\n                        className: \"w-[400px] md:w-[500px] 2xl:w-[720px] aspect-video mt-4 rounded-2xl shadow-black shadow-lg bg-slate-800 p-1\",\n                        src: \"https://www.youtube.com/embed/\" + tech.video,\n                        title: \"YouTube video player\",\n                        allowFullScreen: true\n                    }, void 0, false, {\n                        fileName: \"D:\\\\sanity\\\\glitchhaven\\\\app\\\\pages\\\\tech\\\\[slug].jsx\",\n                        lineNumber: 26,\n                        columnNumber: 10\n                    }, this) : \"\"\n                ]\n            }, void 0, true, {\n                fileName: \"D:\\\\sanity\\\\glitchhaven\\\\app\\\\pages\\\\tech\\\\[slug].jsx\",\n                lineNumber: 12,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_components_FooterBar__WEBPACK_IMPORTED_MODULE_4__[\"default\"], {}, void 0, false, {\n                fileName: \"D:\\\\sanity\\\\glitchhaven\\\\app\\\\pages\\\\tech\\\\[slug].jsx\",\n                lineNumber: 33,\n                columnNumber: 7\n            }, this)\n        ]\n    }, void 0, true, {\n        fileName: \"D:\\\\sanity\\\\glitchhaven\\\\app\\\\pages\\\\tech\\\\[slug].jsx\",\n        lineNumber: 10,\n        columnNumber: 5\n    }, this);\n}\nasync function getStaticPaths() {\n    const paths = await _client__WEBPACK_IMPORTED_MODULE_1__[\"default\"].fetch(`*[_type == \"game\" && defined(slug.current)][].slug.current`);\n    return {\n        paths: paths.map((slug)=>({\n                params: {\n                    slug\n                }\n            })),\n        fallback: true\n    };\n}\nasync function getStaticProps(context) {\n    const { slug =\"\"  } = context.params;\n    const tech = await _client__WEBPACK_IMPORTED_MODULE_1__[\"default\"].fetch(`\r\n  *[_type == \"tech\" && slug.current == $slug][0]{\r\n    name, slug, video, hunters[]->, description, game->\r\n  }`, {\n        slug\n    });\n    return {\n        props: {\n            tech\n        }\n    };\n}\n\n__webpack_async_result__();\n} catch(e) { __webpack_async_result__(e); } });//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9wYWdlcy90ZWNoL1tzbHVnXS5qc3guanMiLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7Ozs7OztBQUErQjtBQUNVO0FBQ0E7QUFDVTtBQUVwQyxTQUFTSSxVQUFVLEVBQUVDLEtBQUksRUFBRSxFQUFFO0lBRTFDLE9BQ0dBLE1BQU1DLHNCQUNQLDhEQUFDQzs7MEJBQ0MsOERBQUNOLHdEQUFJQTs7Ozs7MEJBQ0wsOERBQUNNO2dCQUFJQyxXQUFVOztrQ0FDYiw4REFBQ0Q7d0JBQUlDLFdBQVU7OzBDQUdiLDhEQUFDQztnQ0FBR0QsV0FBVTs7b0NBQTBCSCxLQUFLQyxJQUFJO29DQUFDO2tEQUFDLDhEQUFDSTt3Q0FBS0YsV0FBVTs7NENBQWtEOzBEQUFVLDhEQUFDRztnREFBRUgsV0FBVTswREFBNEZILEtBQUtPLElBQUksQ0FBQ04sSUFBSTs7Ozs7Ozs7Ozs7Ozs7Ozs7OzBDQUN0UCw4REFBQ0k7Z0NBQUtGLFdBQVU7Ozs7Ozs0QkFBbUI7NEJBRXBCSCxLQUFLUSxPQUFPLENBQUNDLEdBQUcsQ0FBQyxDQUFDQyx1QkFDN0IsOERBQUNiLHdEQUFJQTtvQ0FBQ2MsTUFBTUQsT0FBT1QsSUFBSTtvQ0FBRVcsT0FBTTtvQ0FBY0MsTUFBTSxhQUFhSCxPQUFPSSxJQUFJLENBQUNDLE9BQU87bUNBQU9MLE9BQU9NLEdBQUc7Ozs7OzBDQUV4Ryw4REFBQ0M7Z0NBQUVkLFdBQVU7MENBQW9CSCxLQUFLa0IsV0FBVzs7Ozs7Ozs7Ozs7O29CQUdsRGxCLEtBQUttQixLQUFLLGlCQUNWLDhEQUFDQzt3QkFBT2pCLFdBQVU7d0JBQ25Ca0IsS0FBSyxtQ0FBbUNyQixLQUFLbUIsS0FBSzt3QkFDbERHLE9BQU07d0JBQ05DLGVBQWU7Ozs7OytCQUNiLEVBQUU7Ozs7Ozs7MEJBR04sOERBQUN6Qiw2REFBU0E7Ozs7Ozs7Ozs7O0FBR2hCLENBQUM7QUFFTSxlQUFlMEIsaUJBQWlCO0lBQ3JDLE1BQU1DLFFBQVEsTUFBTTlCLHFEQUFZLENBQzlCLENBQUMsMERBQTBELENBQUM7SUFHOUQsT0FBTztRQUNMOEIsT0FBT0EsTUFBTWhCLEdBQUcsQ0FBQyxDQUFDSyxPQUFVO2dCQUFDYSxRQUFRO29CQUFDYjtnQkFBSTtZQUFDO1FBQzNDYyxVQUFVLElBQUk7SUFDaEI7QUFDRixDQUFDO0FBRU0sZUFBZUMsZUFBZUMsT0FBTyxFQUFFO0lBQzVDLE1BQU0sRUFBQ2hCLE1BQU8sR0FBRSxFQUFDLEdBQUdnQixRQUFRSCxNQUFNO0lBRWxDLE1BQU0zQixPQUFPLE1BQU1MLHFEQUFZLENBQUMsQ0FBQzs7O0dBR2hDLENBQUMsRUFBRTtRQUFDbUI7SUFBSTtJQUVULE9BQU87UUFDTGlCLE9BQU87WUFDTC9CO1FBQ0Y7SUFDRjtBQUNGLENBQUMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9HbGl0Y2ggSGF2ZW4vLi9wYWdlcy90ZWNoL1tzbHVnXS5qc3g/YWEzOCJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgY2xpZW50IGZyb20gXCIuLi9jbGllbnRcIjtcclxuaW1wb3J0IE1lbnUgZnJvbSBcIi4uLy4uL2NvbXBvbmVudHMvTWVudVwiO1xyXG5pbXBvcnQgUGlsbCBmcm9tIFwiLi4vLi4vY29tcG9uZW50cy9QaWxsXCI7XHJcbmltcG9ydCBGb290ZXJCYXIgZnJvbSBcIi4uLy4uL2NvbXBvbmVudHMvRm9vdGVyQmFyXCI7XHJcblxyXG5leHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBJbmRleFBhZ2UoeyB0ZWNoIH0pIHtcclxuXHJcbiAgcmV0dXJuIChcclxuICAgICh0ZWNoPy5uYW1lICYmXHJcbiAgICA8ZGl2PlxyXG4gICAgICA8TWVudT48L01lbnU+XHJcbiAgICAgIDxkaXYgY2xhc3NOYW1lPVwiICB0ZXh0LXdoaXRlIHAtMTAgZ3JpZCBncmlkLWNvbHMtMSBsZzpncmlkLWNvbHMtMiAgc2hhZG93LWJsYWNrIHNoYWRvdy1tZCBqdXN0aWZ5LWl0ZW1zLXN0YXJ0IGxnOmp1c3RpZnktaXRlbXMtY2VudGVyIGJnLWdyYWRpZW50LXRvLXQgZnJvbS10cmFuc3BhcmVudCB2aWEtc2xhdGUtNzAwIHRvLXRyYW5zcGFyZW50XCI+XHJcbiAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJtci01IHByLTVcIj5cclxuICAgICAgICAgIFxyXG4gICAgICAgIFxyXG4gICAgICAgICAgPGgxIGNsYXNzTmFtZT1cInRleHQtM3hsIGZvbnQtc2VtaWJvbGRcIj57dGVjaC5uYW1lfSA8c3BhbiBjbGFzc05hbWU9XCIgdGV4dC1iYXNlIGZvbnQtbm9ybWFsIGJvcmRlci1sLVsxcHhdIHB5LTEgcHgtMlwiPiBUZWNoIGZvciA8aSBjbGFzc05hbWU9XCIgYmctcmVkLTcwMCBmb250LXNlbWlib2xkIHB4LTIgcHktWzJweF0gcm91bmRlZC1sZyBjdXJzb3ItcG9pbnRlciBzaGFkb3ctbWQgc2hhZG93LWJsYWNrXCI+e3RlY2guZ2FtZS5uYW1lfTwvaT48L3NwYW4+PC9oMT5cclxuICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT1cInAtMiBibG9ja1wiPjwvc3Bhbj4gXHJcbiAgICAgICAgICBcclxuICAgICAgICAgIERpc2NvdmVyZWQgYnkge3RlY2guaHVudGVycy5tYXAoKGh1bnRlcikgPT4gKFxyXG4gICAgICAgICAgICAgIDxQaWxsIHRleHQ9e2h1bnRlci5uYW1lfSBjb2xvcj1cImJnLWJsdWUtNjAwXCIgbGluaz17XCIvaHVudGVyL1wiICsgaHVudGVyLnNsdWcuY3VycmVudH0ga2V5PXtodW50ZXIuX2lkfT48L1BpbGw+XHJcbiAgICAgICAgICApKX1cclxuICAgICAgICAgIDxwIGNsYXNzTmFtZT1cIm10LTEwIHdoaXRlU3BhY2VcIj57dGVjaC5kZXNjcmlwdGlvbn08L3A+XHJcbiAgICAgICAgPC9kaXY+XHJcbiAgICAgICAgXHJcbiAgICAgICAge3RlY2gudmlkZW8gP1xyXG4gICAgICAgICg8aWZyYW1lIGNsYXNzTmFtZT1cInctWzQwMHB4XSBtZDp3LVs1MDBweF0gMnhsOnctWzcyMHB4XSBhc3BlY3QtdmlkZW8gbXQtNCByb3VuZGVkLTJ4bCBzaGFkb3ctYmxhY2sgc2hhZG93LWxnIGJnLXNsYXRlLTgwMCBwLTFcIlxyXG4gICAgICAgIHNyYz17XCJodHRwczovL3d3dy55b3V0dWJlLmNvbS9lbWJlZC9cIiArIHRlY2gudmlkZW99IFxyXG4gICAgICAgIHRpdGxlPVwiWW91VHViZSB2aWRlbyBwbGF5ZXJcIiBcclxuICAgICAgICBhbGxvd0Z1bGxTY3JlZW4gLz4pXHJcbiAgICAgICAgOiAnJ1xyXG4gICAgICAgIH1cclxuICAgICAgPC9kaXY+XHJcbiAgICAgIDxGb290ZXJCYXI+PC9Gb290ZXJCYXI+XHJcbiAgICA8L2Rpdj5cclxuICApKTtcclxufVxyXG5cclxuZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIGdldFN0YXRpY1BhdGhzKCkge1xyXG4gIGNvbnN0IHBhdGhzID0gYXdhaXQgY2xpZW50LmZldGNoKFxyXG4gICAgYCpbX3R5cGUgPT0gXCJnYW1lXCIgJiYgZGVmaW5lZChzbHVnLmN1cnJlbnQpXVtdLnNsdWcuY3VycmVudGBcclxuICApXHJcblxyXG4gIHJldHVybiB7XHJcbiAgICBwYXRoczogcGF0aHMubWFwKChzbHVnKSA9PiAoe3BhcmFtczoge3NsdWd9fSkpLFxyXG4gICAgZmFsbGJhY2s6IHRydWUsXHJcbiAgfVxyXG59XHJcblxyXG5leHBvcnQgYXN5bmMgZnVuY3Rpb24gZ2V0U3RhdGljUHJvcHMoY29udGV4dCkge1xyXG4gIGNvbnN0IHtzbHVnID0gXCJcIn0gPSBjb250ZXh0LnBhcmFtcztcclxuXHJcbiAgY29uc3QgdGVjaCA9IGF3YWl0IGNsaWVudC5mZXRjaChgXHJcbiAgKltfdHlwZSA9PSBcInRlY2hcIiAmJiBzbHVnLmN1cnJlbnQgPT0gJHNsdWddWzBde1xyXG4gICAgbmFtZSwgc2x1ZywgdmlkZW8sIGh1bnRlcnNbXS0+LCBkZXNjcmlwdGlvbiwgZ2FtZS0+XHJcbiAgfWAsIHtzbHVnfSlcclxuXHJcbiAgcmV0dXJuIHtcclxuICAgIHByb3BzOiB7XHJcbiAgICAgIHRlY2hcclxuICAgIH1cclxuICB9O1xyXG59XHJcbiJdLCJuYW1lcyI6WyJjbGllbnQiLCJNZW51IiwiUGlsbCIsIkZvb3RlckJhciIsIkluZGV4UGFnZSIsInRlY2giLCJuYW1lIiwiZGl2IiwiY2xhc3NOYW1lIiwiaDEiLCJzcGFuIiwiaSIsImdhbWUiLCJodW50ZXJzIiwibWFwIiwiaHVudGVyIiwidGV4dCIsImNvbG9yIiwibGluayIsInNsdWciLCJjdXJyZW50IiwiX2lkIiwicCIsImRlc2NyaXB0aW9uIiwidmlkZW8iLCJpZnJhbWUiLCJzcmMiLCJ0aXRsZSIsImFsbG93RnVsbFNjcmVlbiIsImdldFN0YXRpY1BhdGhzIiwicGF0aHMiLCJmZXRjaCIsInBhcmFtcyIsImZhbGxiYWNrIiwiZ2V0U3RhdGljUHJvcHMiLCJjb250ZXh0IiwicHJvcHMiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./pages/tech/[slug].jsx\n");
+__webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ IndexPage),
+/* harmony export */   "getStaticPaths": () => (/* binding */ getStaticPaths),
+/* harmony export */   "getStaticProps": () => (/* binding */ getStaticProps)
+/* harmony export */ });
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(997);
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _client__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(891);
+/* harmony import */ var _components_Menu__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(802);
+/* harmony import */ var _components_Pill__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(940);
+/* harmony import */ var _components_FooterBar__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(525);
+var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([_client__WEBPACK_IMPORTED_MODULE_1__]);
+_client__WEBPACK_IMPORTED_MODULE_1__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];
+
+
+
+
+
+function IndexPage({ tech  }) {
+    return tech?.name && /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+        children: [
+            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components_Menu__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z, {}),
+            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                className: " text-white p-10 grid grid-cols-1 lg:grid-cols-2 shadow-black shadow-md justify-items-start lg:justify-items-center bg-gradient-to-t from-transparent via-slate-700 to-transparent",
+                children: [
+                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                        className: "mr-5 pr-5",
+                        children: [
+                            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("h1", {
+                                className: "text-3xl font-semibold",
+                                children: [
+                                    tech.name,
+                                    " ",
+                                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("span", {
+                                        className: " text-base font-normal border-l-[1px] py-1 px-2",
+                                        children: [
+                                            " Tech for ",
+                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("i", {
+                                                className: " bg-red-700 font-semibold px-2 py-[2px] rounded-lg cursor-pointer shadow-md shadow-black",
+                                                children: tech.game.name
+                                            })
+                                        ]
+                                    })
+                                ]
+                            }),
+                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
+                                className: "p-2 block"
+                            }),
+                            "Discovered by ",
+                            tech.hunters.map((hunter)=>/*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components_Pill__WEBPACK_IMPORTED_MODULE_3__/* ["default"] */ .Z, {
+                                    text: hunter.name,
+                                    color: "bg-blue-600",
+                                    link: "/hunter/" + hunter.slug.current
+                                }, hunter._id)),
+                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                className: "mt-10 whiteSpace",
+                                children: tech.description
+                            })
+                        ]
+                    }),
+                    tech.video ? /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("iframe", {
+                        className: "w-[400px] md:w-[500px] 2xl:w-[720px] aspect-video mt-4 rounded-2xl shadow-black shadow-lg bg-slate-800 p-1",
+                        src: "https://www.youtube.com/embed/" + tech.video,
+                        title: "YouTube video player",
+                        allowFullScreen: true
+                    }) : ""
+                ]
+            }),
+            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components_FooterBar__WEBPACK_IMPORTED_MODULE_4__/* ["default"] */ .Z, {})
+        ]
+    });
+}
+async function getStaticPaths() {
+    const paths = await _client__WEBPACK_IMPORTED_MODULE_1__.client.fetch(`*[_type == "game" && defined(slug.current)][].slug.current`);
+    return {
+        paths: paths.map((slug)=>({
+                params: {
+                    slug
+                }
+            })),
+        fallback: true
+    };
+}
+async function getStaticProps(context) {
+    const { slug =""  } = context.params;
+    const tech = await _client__WEBPACK_IMPORTED_MODULE_1__.client.fetch(`
+  *[_type == "tech" && slug.current == $slug][0]{
+    name, slug, video, hunters[]->, description, game->
+  }`, {
+        slug
+    });
+    return {
+        props: {
+            tech
+        }
+    };
+}
+
+__webpack_async_result__();
+} catch(e) { __webpack_async_result__(e); } });
 
 /***/ }),
 
-/***/ "next-auth/react":
-/*!**********************************!*\
-  !*** external "next-auth/react" ***!
-  \**********************************/
-/***/ ((module) => {
-
-module.exports = require("next-auth/react");
-
-/***/ }),
-
-/***/ "react":
-/*!************************!*\
-  !*** external "react" ***!
-  \************************/
+/***/ 689:
 /***/ ((module) => {
 
 module.exports = require("react");
 
 /***/ }),
 
-/***/ "react/jsx-dev-runtime":
-/*!****************************************!*\
-  !*** external "react/jsx-dev-runtime" ***!
-  \****************************************/
+/***/ 997:
 /***/ ((module) => {
 
-module.exports = require("react/jsx-dev-runtime");
+module.exports = require("react/jsx-runtime");
 
 /***/ }),
 
-/***/ "next-sanity":
-/*!******************************!*\
-  !*** external "next-sanity" ***!
-  \******************************/
+/***/ 91:
 /***/ ((module) => {
 
 module.exports = import("next-sanity");;
@@ -130,7 +232,7 @@ module.exports = import("next-sanity");;
 var __webpack_require__ = require("../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = (__webpack_exec__("./pages/tech/[slug].jsx"));
+var __webpack_exports__ = __webpack_require__.X(0, [802], () => (__webpack_exec__(354)));
 module.exports = __webpack_exports__;
 
 })();

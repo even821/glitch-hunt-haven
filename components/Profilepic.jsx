@@ -1,5 +1,5 @@
 
-import { useSession, signOut, signIn } from 'next-auth/react';
+import { useSession, signIn } from 'next-auth/react';
 
 const saveTitle = async (title) => {
     const mutation = [
