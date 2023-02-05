@@ -23,7 +23,7 @@ export default function IndexPage({ tech }) {
         </div>
         
         {tech.video ?
-        (<iframe className="w-[400px] md:w-[500px] 2xl:w-[720px] aspect-video mt-4 rounded-2xl shadow-black shadow-lg bg-slate-800 p-1"
+        (<iframe className=" w-full md:w-[500px] 2xl:w-[720px] aspect-video mt-4 rounded-2xl shadow-black shadow-lg bg-slate-800 p-1"
         src={"https://www.youtube.com/embed/" + tech.video} 
         title="YouTube video player" 
         allowFullScreen />)
