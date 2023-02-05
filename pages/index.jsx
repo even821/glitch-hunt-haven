@@ -29,6 +29,7 @@ export async function getStaticProps() {
       games,
       strats,
       techs
-    }
+    },
+    revalidate: 10
   };
 }
