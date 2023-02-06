@@ -11,6 +11,7 @@ const Menu = () => {
         <MenuItem item="Techs" slug="tech"></MenuItem>
         <MenuItem item="Strats" slug="strat"></MenuItem>
       </ul>
+      test
       <div className=' grid justify-items-end pr-10'>
           
       </div>
