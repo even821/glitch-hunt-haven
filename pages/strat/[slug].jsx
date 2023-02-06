@@ -2,8 +2,19 @@ import {client} from "../client";
 import Menu from "../../components/Menu";
 import Pill from "../../components/Pill";
 import FooterBar from "../../components/FooterBar";
+import { PortableText } from '@portabletext/react'
 
 export default function IndexPage({ strat }) {
+  const components = {
+    types: {
+      code: props => (
+        <pre data-language={props.node.language}>
+          <code>{props.node.code}</code>
+        </pre>
+      )
+
+    }
+  }
 
   return (strat?.name &&
       <div>
@@ -18,7 +29,8 @@ export default function IndexPage({ strat }) {
             Discovered by {strat.hunters.map((hunter) => (
                 <Pill text={hunter.name} color="bg-blue-600" link={"/hunter/" + hunter.slug.current} key={hunter._id}></Pill>
             ))}
-            <p className="mt-10 whiteSpace">{strat.description}</p>
+            <span className=" block my-10"> </span>
+            <PortableText value={strat?.content} components={components} />
           </div>
           
           {strat.video ?
@@ -50,7 +62,7 @@ export async function getStaticProps(context) {
 
   const strat = await client.fetch(`
   *[_type == "strat" && slug.current == $slug][0]{
-    name, video, hunters[]->, game->
+    name, video, content, hunters[]->, game->
   }`, {slug})
 
   return {
