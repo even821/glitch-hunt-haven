@@ -2,8 +2,22 @@ import {client} from "../client";
 import Menu from "../../components/Menu";
 import Pill from "../../components/Pill";
 import FooterBar from "../../components/FooterBar";
+import { PortableText } from '@portabletext/react'
 
 export default function IndexPage({ tech }) {
+
+  let test;
+
+  const components = {
+    types: {
+      code: props => (
+        <pre data-language={props.node.language}>
+          <code>{props.node.code}</code>
+        </pre>
+      )
+
+    }
+  }
 
   return (
     (tech?.name &&
@@ -20,6 +34,7 @@ export default function IndexPage({ tech }) {
               <Pill text={hunter.name} color="bg-blue-600" link={"/hunter/" + hunter.slug.current} key={hunter._id}></Pill>
           ))}
           <p className="mt-10 whiteSpace">{tech.description}</p>
+          <PortableText value={tech.content} components={components} />
         </div>
         
         {tech.video ?
@@ -51,7 +66,7 @@ export async function getStaticProps(context) {
 
   const tech = await client.fetch(`
   *[_type == "tech" && slug.current == $slug][0]{
-    name, slug, video, hunters[]->, description, game->
+    name, slug, video, hunters[]->, description, content, game->
   }`, {slug})
 
   return {

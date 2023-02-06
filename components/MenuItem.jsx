@@ -2,7 +2,7 @@ import React from 'react'
 
 const MenuItem = ({ item, slug }) => {
   return (
-    <li className="my-3 mx-5 hover:cursor-pointer"><a href={"/router/" + slug}>{item}</a></li>
+    <a href={"/router/" + slug} className=""><li className="my-3 hover:cursor-pointer">{item}</li></a>
   )
 }
 

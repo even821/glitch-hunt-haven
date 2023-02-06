@@ -1,31 +1,37 @@
 import {client} from "../client";
 import Menu from "../../components/Menu";
+import Pill from "../../components/Pill";
+import FooterBar from "../../components/FooterBar";
 
 export default function IndexPage({ strat }) {
 
-  return (
-    (strat?.name &&
-    <div className="bg-slate-600">
-      <Menu></Menu>
-      <div className=" text-white p-10 grid grid-cols-2">
-        <div className="pr-10">
-          <h1 className="text-3xl mb-3 font-semibold">{strat.name}</h1>
-          Found by {strat.hunters.map((hunter) => (
-              <div className=" inline bg-slate-200 text-black p-1 rounded font-semibold mr-2 shadow-black shadow-inner" key={hunter._id}>{hunter.name}</div>
-          ))}
-          <p className="mt-10 whiteSpace">{strat.description}</p>
+  return (strat?.name &&
+      <div>
+        <Menu></Menu>
+        <div className="  text-white p-10 grid grid-cols-1 lg:grid-cols-2  shadow-black shadow-md justify-items-start lg:justify-items-center bg-gradient-to-t from-transparent via-slate-700 to-transparent">
+          <div className="mr-5 pr-5">
+            
+          
+            <h1 className="text-3xl font-semibold">{strat.name} <span className=" text-base font-normal border-l-[1px] py-1 px-2"> Strat for <i className=" bg-red-700 font-semibold px-2 py-[2px] rounded-lg cursor-pointer shadow-md shadow-black">{strat.game.name}</i></span></h1>
+            <span className="p-2 block"></span> 
+            
+            Discovered by {strat.hunters.map((hunter) => (
+                <Pill text={hunter.name} color="bg-blue-600" link={"/hunter/" + hunter.slug.current} key={hunter._id}></Pill>
+            ))}
+            <p className="mt-10 whiteSpace">{strat.description}</p>
+          </div>
+          
+          {strat.video ?
+          (<iframe className=" w-full md:w-[500px] 2xl:w-[720px] aspect-video mt-4 rounded-2xl shadow-black shadow-lg bg-slate-800 p-1"
+          src={"https://www.youtube.com/embed/" + strat.video} 
+          title="YouTube video player" 
+          allowFullScreen />)
+          : ''
+          }
         </div>
-        
-        {strat.video ?
-        (<iframe className="w-[720px] h-[480px] mt-4"
-        src={"https://www.youtube.com/embed/" + strat.video} 
-        title="YouTube video player" 
-        allowFullScreen />)
-        : ''
-        }
+        <FooterBar></FooterBar>
       </div>
-    </div>
-  ));
+    )
 }
 
 export async function getStaticPaths() {
