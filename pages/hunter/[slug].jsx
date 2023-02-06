@@ -52,6 +52,7 @@ export async function getStaticProps(context) {
     props: {
       
       hunter
-    }
+    },
+    revalidate: 10,
   };
 }

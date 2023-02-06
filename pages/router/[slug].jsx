@@ -45,6 +45,7 @@ export async function getStaticProps(context) {
     props: {
       slug,
       content
-    }
+    },
+    revalidate: 10,
   };
 }
